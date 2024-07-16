@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: thistle;
+  font-family: sans-serif;
+}
+
+.text {
+  color: black;
+  line-height: 10rem;
+  text-align: center;
+}
+
+span {
+  background: aliceblue;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  margin: 0.5rem;
+  display: inline-block;
+  transition: transform 0.2s;
+  width: 150px;
+}
+
+span:hover {
+  transform: scale(1.05);
+}
+
+.indicator {
+  background: linear-gradient(to right, green, tomato, rgb(222, 69, 95));
+  height: 20px;
+  width: 10%;
+  position: fixed;
+  border-radius: 4px;
+  top: 0px;
+}
